@@ -1,2 +1,3 @@
 # CASN
-Co-attention span network with multi-task for BioNER
+Co-attention span network with multi-task for BioNER  
+The code is being organized and will be uploaded later....
