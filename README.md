@@ -29,4 +29,4 @@ nnictl create --config ./config_remote.yml --port 9989
   
 
 #### Best Models
-Best models can be downloaded from here  [pretrained model](https://github.com/)
+Best models can be downloaded from here  [models](https://drive.google.com/drive/)
