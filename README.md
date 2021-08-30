@@ -8,7 +8,7 @@ Co-attention span network with multi-task for BioNER
 *  nni 2.4
   
 ### Prepare Models
-all Datasets, we use BioBERT-base(https://github.com/dmis-lab/biobert)
+all Datasets, we use BioBERT-base (https://github.com/dmis-lab/biobert)
 
 ### Training Instructions
   * NCBI dataset Experiment  Search Space is found in `data/NCBI/NCBI_search_space.json` 
