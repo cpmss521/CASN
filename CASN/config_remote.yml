@@ -1,0 +1,24 @@
+authorName: cp
+experimentName: LASN
+trialConcurrency: 1
+maxExecDuration: 45h
+maxTrialNum: 1
+#choice: local, remote, pai
+trainingServicePlatform: local
+searchSpacePath: ./data/NCBI/NCBI_search_space.json
+#choice: true, false
+useAnnotation: false
+tuner:
+  #choice: TPE, Random, Anneal, Evolution, BatchTuner, MetisTuner
+  #SMAC (SMAC should be installed through nnictl)
+  builtinTunerName: TPE
+  classArgs:
+    #choice: maximize, minimize
+    optimize_mode: maximize
+  gpuIndices: "3"
+trial:
+  command: . ./script/NCBI.sh
+  codeDir: .
+  gpuNum: 1
+localConfig:
+  useActiveGpu: true

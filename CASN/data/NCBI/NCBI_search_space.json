@@ -1,0 +1,6 @@
+{
+    "batch_size": {"_type":"choice", "_value": [16,]},
+    "learning_rate":{"_type":"choice","_value":[0.00002,]},
+    "max_entity_span":{"_type":"choice","_value":[15,]},
+    "ner_dropout":{"_type":"choice","_value":[0.2,]}
+}
