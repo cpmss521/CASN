@@ -1,5 +1,5 @@
 # CASN
-Co-attention span network with multi-task for BioNER  
+Span Network with Multi-task learning for Biomedical Named Entity Recognition
 
 ### Requirements
 * Python 3.6
