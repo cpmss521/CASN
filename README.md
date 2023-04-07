@@ -1,5 +1,5 @@
 # CASN
-Span Network with Multi-task learning for Biomedical Named Entity Recognition
+Code for BIBM 2021 paper "Co-Attentive Span Network with Multi-task learning for Biomedical Named Entity Recognition"
 
 ### Requirements
 * Python 3.6
